@@ -66,7 +66,7 @@ for _, row in df_vendas_diarias.iterrows():
     row.to_frame().T.to_csv(arquivo_caminho, index=False)
 
 
-# 4. Carregamento
+# ***** 4. Carregamento *****
 
 SELECT 
     year(data_venda) AS ano, 
